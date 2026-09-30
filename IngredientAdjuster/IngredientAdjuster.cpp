@@ -6,7 +6,7 @@ int main()
 	cout << "\t\t\tSugar Cookie Recipe!" << endl; cout << endl;
 	// Variables and Calculations:
 	double sugarNeeded, butterNeeded, flourNeeded, multiplier, desiredCookies;
-	cout << "How Many Cookies Do You Need To Make? "; cin >> desiredCookies; 
+	cout << "How Many Cookies Do You Need To Make? " << endl; cin >> desiredCookies;
 	cout << endl;
 	cout << endl;
 	multiplier = desiredCookies / 48;
@@ -23,7 +23,7 @@ int main()
 	}
 	else 
 	{
-		cout << "cups" << endl;
+		cout << " cups" << endl;
 	}
 	// Butter 
 	cout << "Butter:\t" << butterNeeded; 
@@ -33,7 +33,7 @@ int main()
 	}
 	else
 	{
-		cout << "cups." << endl;
+		cout << " cups." << endl;
 	}
 	// Flour
 	cout << "Flour:\t" << flourNeeded; 
@@ -43,7 +43,7 @@ int main()
 	}
 	else
 	{
-		cout << "cups." << endl;
+		cout << " cups." << endl;
 	}
 
 	cout << "\t\t\tEnjoy!";
