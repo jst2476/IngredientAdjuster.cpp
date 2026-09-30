@@ -3,7 +3,7 @@
 using namespace std;
 int main() 
 {
-	cout << "\t\t\tSugar Cookie Recipe!" << endl;
+	cout << "\t\t\tSugar Cookie Recipe!" << endl; cout << endl;
 	// Variables and Calculations:
 	double sugarNeeded, butterNeeded, flourNeeded, multiplier, desiredCookies;
 	cout << "How Many Cookies Do You Need To Make? "; cin >> desiredCookies; 
@@ -20,5 +20,6 @@ int main()
 	cout << "Flour:\t" << flourNeeded; cout << " cups." << endl;
 	cout << "\t\t\tEnjoy!";
 
+	return 0;
 
 }
