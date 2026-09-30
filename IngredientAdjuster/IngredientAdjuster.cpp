@@ -14,10 +14,38 @@ int main()
 	butterNeeded = 1.0 * multiplier;
 	flourNeeded = 2.75 * multiplier;
 	// Adjusted Ingredient List
-	cout << "\t\t\tIngredients Needed: " << endl;
-	cout << "Sugar:\t" << sugarNeeded; cout << " cups." << endl;
-	cout << "Butter:\t" << butterNeeded; cout << " cups." << endl;
-	cout << "Flour:\t" << flourNeeded; cout << " cups." << endl;
+	cout << "\t\t\t Precise Ingredients Needed: " << endl;
+	// Sugar
+	cout << "Sugar:\t" << sugarNeeded;
+	if (sugarNeeded <= 1)
+	{
+		cout << " cup." << endl;
+	}
+	else 
+	{
+		cout << "cups" << endl;
+	}
+	// Butter 
+	cout << "Butter:\t" << butterNeeded; 
+	if (butterNeeded <= 1)
+	{
+		cout << " cup." << endl;
+	}
+	else
+	{
+		cout << "cups." << endl;
+	}
+	// Flour
+	cout << "Flour:\t" << flourNeeded; 
+	if (flourNeeded <= 1)
+	{
+		cout << " cup." << endl;
+	}
+	else
+	{
+		cout << "cups." << endl;
+	}
+
 	cout << "\t\t\tEnjoy!";
 
 	return 0;
