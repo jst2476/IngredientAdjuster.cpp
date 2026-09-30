@@ -23,7 +23,7 @@ int main()
 	}
 	else 
 	{
-		cout << " cups" << endl;
+		cout << " cups." << endl;
 	}
 	// Butter 
 	cout << "Butter:\t" << butterNeeded; 
