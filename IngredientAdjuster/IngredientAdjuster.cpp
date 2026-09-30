@@ -14,7 +14,7 @@ int main()
 	butterNeeded = 1.0 * multiplier;
 	flourNeeded = 2.75 * multiplier;
 	// Adjusted Ingredient List
-	cout << "\t\t\t Precise Ingredients Needed: " << endl;
+	cout << "\t\t\tPrecise Ingredients Needed: " << endl;
 	// Sugar
 	cout << "Sugar:\t" << sugarNeeded;
 	if (sugarNeeded <= 1)
